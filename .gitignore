@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editorit
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (jos käytät)
+node_modules/
+npm-debug.log*
+
+# Build-tulokset
+dist/
+build/
+
+# Muut
+Thumbs.db
+*.log
