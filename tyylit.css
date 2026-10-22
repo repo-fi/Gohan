@@ -35,10 +35,12 @@ h2 {
 
 .toggle-img .kuva-1 {
   display: block;
+  max-width: 200px;
 }
 
 .toggle-img .kuva-2 {
   display: none;
+  max-width: 200px;
 }
 
 .toggle-img input:checked ~ .kuva-1 {
