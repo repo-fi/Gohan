@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.etusivu-body {
+  background-color: palevioletred;
+}
+
+.etusivu-body p,
+h1,
+h2 {
+  color: whitesmoke;
+}
+
+.etusivu-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iso-merkki {
+  font-size: 4em;
+}
+
+.toggle-img {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+}
+
+.toggle-img input {
+  display: none;
+}
+
+.toggle-img .kuva-1 {
+  display: block;
+}
+
+.toggle-img .kuva-2 {
+  display: none;
+}
+
+.toggle-img input:checked ~ .kuva-1 {
+  display: none;
+}
+
+.toggle-img input:checked ~ .kuva-2 {
+  display: block;
+}

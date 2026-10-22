@@ -3,12 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tyylit.css" />
     <title>Gohanin oma sivu</title>
   </head>
-  <body>
-    <p>ごはん</p>
-    <p>キノコ</p>
-    <p>の</p>
-    <p>森</p>
+  <body class="etusivu-body">
+    <div class="etusivu-flex">
+      <h1>キノコ</h1>
+      <h2>の</h2>
+      <h2 class="iso-merkki">森</h2>
+      <label class="toggle-img">
+        <input type="checkbox" />
+        <img class="kuva-1" src="kuva1.jpg" alt="Lintu nimeltä ごはん." />
+        <img class="kuva-2" src="kuva2.jpg" alt="Lintu nimeltä ごはん." />
+      </label>
+      <p class="gohan">&#9788;ごはん&#9788;</p>
+    </div>
   </body>
 </html>
